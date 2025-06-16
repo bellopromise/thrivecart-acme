@@ -1,0 +1,44 @@
+# Docker and development
+docker-compose.override.yml
+.dockerignore
+.env
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+vendor/
+.php-cs-fixer.cache
+
+# Composer
+composer.phar
+
+# Testing
+.phpunit.result.cache
+/clover.xml
+/coverage/
+
+# Runtime files
+.phpunit.cache
+.php-cs-fixer.cache
+
+# Local configuration overrides
+*.local.php
+*.local.yaml
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.log
+*.cache
+*.tmp
+
+# PHPStan
+.phpstan.cache
+/tmp/
+
+# IDE specific
+.phpstorm.meta.php
