@@ -30,9 +30,6 @@
     ],
     "cs-check": [
       "php-cs-fixer fix --dry-run --allow-risky=yes"
-    ],
-    "post-install-cmd": [
-      "chmod +x bin/acme-widget"
     ]
   },
   "config": {

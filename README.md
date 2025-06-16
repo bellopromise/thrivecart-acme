@@ -68,6 +68,9 @@ docker compose build
 # Start a container shell
 docker compose run --rm app bash
 
+# Inside the container, install
+composer install
+
 # Inside the container, run tests
 composer test
 
